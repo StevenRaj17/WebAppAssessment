@@ -181,5 +181,5 @@ The (2.2) Database Setup and (2.3) Application Properties Setup remains the same
 - Welcome Messages
 - Error Messages
 
-With this, I conclude my README file. I hope the guideline I have provided above will help the users to download and run the application locally.Thank you.
+With this, I conclude my README file. I hope the guideline I have provided above will help the users to download and run the application locally. Thank you.
 
