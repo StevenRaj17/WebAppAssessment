@@ -1,7 +1,7 @@
 
 # Web Application Assessment
 
-Based on the core requirements of the given assessment, this project was developed using the Java programming language, Spring Boot application framework for the back-end development, and Thymeleaf templates for the front-end development. Several dependencies were implemented in this project to meet the functionality of the Web Application, especially the Spring Security dependency for the Authentication and Authorization of the users accesssing the Web Application. Additionally, the MySQL database was implemented in this project in order to store the information of the users accesssing the Web Application. A detailed guideline of this project is provided below to install and accesss the project locally.
+Based on the core requirements of the given assessment, this project was developed using the Java programming language, Spring Boot application framework for the back-end development, and Thymeleaf templates for the front-end development. Several dependencies were implemented in this project to meet the functionality of the Web Application, especially the Spring Security dependency for the Authentication and Authorization of the users accesssing the Web Application. Additionally, the MySQL database was implemented in this project in order to store the information of the users accesssing the Web Application. A detailed guideline of this project is provided below to install and access the project locally.
 
 
 
