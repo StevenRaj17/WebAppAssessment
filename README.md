@@ -163,7 +163,7 @@ Project Setup in IntelliJ IDEA :
 
   - The project is succcessfully imported in IntelliJ IDEA. 
   
-The (2.2) Database Setup and (2.3) Application Properties Set-Up remains the same as mentioned above. Finally, right click the "MyRoleAuthenticationApp" and run the application to complete the project setup. Accessing the Web Application remains the same as mentioned in (3.0) Usage.
+The (2.2) Database Setup and (2.3) Application Properties Setup remains the same as mentioned above. Finally, right click the "MyRoleAuthenticationApp" and run the application to complete the project setup. Accessing the Web Application remains the same as mentioned in (3.0) Usage.
 
 
 
