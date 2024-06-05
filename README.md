@@ -54,7 +54,8 @@ https://github.com/StevenRaj17/WebAppAssessment.git
 
   - Click the "Create New SQL" tab.
   
-  - Create a database using this SQL command : 
+  - Create a database using this SQL command :
+    
   ```bash
     create database database_name;
   ```
