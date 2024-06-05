@@ -78,7 +78,7 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   spring.main.allow-circular-references=true
   server.port=8080
 ```
-  - Save the "application.properties"
+  - Save the "application.properties".
 
 ## 2.4) Running The Application
 
