@@ -91,7 +91,7 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   - You may see an output similar to the following in your Console :
 
 ```bash
-  <Start of Console>
+  <Start of console>
 
 .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
