@@ -56,7 +56,7 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   
   - Create a database using this SQL command : 
   ```bash
-    create database <database_name>;
+    create database database_name;
   ```
 
   - Refresh the "SCHEMAS" to check if the database is created.
@@ -68,10 +68,10 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   - Modify the following properties according your MySQL Workbench database name, username and password :
   ```bash
   spring.application.name=MyRoleAuthentication
-  spring.datasource.url=jdbc:mysql://localhost:3306/<database_name>
+  spring.datasource.url=jdbc:mysql://localhost:3306/database_name
   spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-  spring.datasource.username=<your_username>
-  spring.datasource.password=<your_password>
+  spring.datasource.username=your_username
+  spring.datasource.password=your_password
   spring.jpa.hibernate.ddl-auto=update
   spring.jpa.show-sql=true
   spring.thymeleaf.cache=false
