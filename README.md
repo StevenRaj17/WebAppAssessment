@@ -82,6 +82,28 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   spring.main.allow-circular-references=true
   server.port=8080
   ```
+
+  ```bash
+  Exmaple :
+
+  If your MySQL Workbench database_name is "project", username is "root", and password is "spring123",
+  then your code modification should be like this :
+
+  spring.application.name=MyRoleAuthentication
+  ## Change your database_name below
+  spring.datasource.url=jdbc:mysql://localhost:3306/project
+  ## Change your username below
+  spring.datasource.username=root
+  ## Change your password below
+  spring.datasource.password=spring123
+  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+  spring.jpa.hibernate.ddl-auto=update
+  spring.jpa.show-sql=true
+  spring.thymeleaf.cache=false
+  spring.main.allow-circular-references=true
+  server.port=8080
+  
+  ```
   - Save the "application.properties" file.
 
 ## 2.4) Running The Application
