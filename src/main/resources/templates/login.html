@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Authentication - Home</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <style>
+    
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Verdana';
+        }
+        
+        .container {
+            margin-top: 50px;
+        }
+
+        .login-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 12px 20px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h1 {
+        
+           text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            font-family: 'Segoe UI';
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .btn-primary {
+            background-color: rgb(0, 255, 64); 
+            border-color: rgb(0, 255, 64);
+        }
+
+       .btn-primary:hover {
+            background-color: #52c678;
+            border-color: rgb(0, 255, 0); 
+        }
+        
+        .center-text {
+            text-align: center;
+        }
+        
+              footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: #343a40;
+          color: #ffffff;
+          text-align: center;
+          padding: 10px 0;
+          font-size: 16px; 
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3 login-container">
+
+            <div class="center-text">
+                <div th:if="${param.error}" class="alert alert-danger">Your entered Email or Password is Incorrect.<br>Please check and Login again.</div>
+            </div>
+
+            <h1>AUTHENTICATION LOGIN</h1>
+            
+            <br>
+
+            <form th:action="@{/login}" method="post" th:object="${user}">
+                <div class="form-group">
+                    <label class="control-label" for="email">Email</label>
+                    <input id="email" class="form-control" th:field="*{username}" required autofocus="autofocus" pattern="[^@\s]+@[^@\s]+\.[^@\s]+"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label" for="password">Password</label>
+                    <input id="password" class="form-control" type="password" th:field="*{password}" required autofocus="autofocus"/>
+                </div>
+
+                <div class="form-group center-text">
+                    <button type="submit" class="btn btn-primary"><b>L O G I N</b></button>
+                    <br><br>
+                    <span><b>New User ?</b> <a href="/" th:href="@{/registration}"><b>REGISTER HERE</b></a></span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<footer>Login@MyRoleAuthentication</footer>
+
+</body>
+</html>
