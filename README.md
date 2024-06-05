@@ -78,14 +78,14 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   spring.main.allow-circular-references=true
   server.port=8080
 ```
-  - Save the "application.properties".
+  - Save the "application.properties" file.
 
 ## 2.4) Running The Application
 
 
-  - Choose the class "MyRoleAuthenticationApp" that is located under "src/main/java/com.role.auth".
+  - Choose the class "MyRoleAuthenticationApplication" that is located under "src/main/java/com.role.auth".
 
-  - Right click the "MyRoleAuthenticationApp" class and "Run As" > "Spring Boot App".
+  - Right click the "MyRoleAuthenticationApplication" class and "Run As" > "Spring Boot App".
 
   - You may see an output similar to the following in your Console :
 
@@ -163,7 +163,7 @@ Project Setup in IntelliJ IDEA :
 
   - The project is succcessfully imported in IntelliJ IDEA. 
   
-The (2.2) Database Setup and (2.3) Application Properties Setup remains the same as mentioned above. Finally, right click the "MyRoleAuthenticationApp" and run the application to complete the project setup. Accessing the Web Application remains the same as mentioned in (3.0) Usage.
+The (2.2) Database Setup and (2.3) Application Properties Setup remains the same as mentioned above. Finally, right click the "MyRoleAuthenticationApplication" and run the application to complete the project setup. Accessing the Web Application remains the same as mentioned in (3.0) Usage.
 
 
 
