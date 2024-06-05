@@ -86,7 +86,8 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   ```bash
   Exmaple :
 
-  If your MySQL Workbench database_name is "project", username is "root", and password is "spring123", then your code modification should be like this :
+  If your MySQL Workbench database_name is "project", username is "root", and password is "spring123",
+  then your code modification should be like this :
 
   spring.application.name=MyRoleAuthentication
   ## Change your database_name below
