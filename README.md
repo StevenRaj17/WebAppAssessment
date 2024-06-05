@@ -71,11 +71,11 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   spring.application.name=MyRoleAuthentication
   ## Change your database_name below
   spring.datasource.url=jdbc:mysql://localhost:3306/database_name
-  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
   ## Change your_username below
   spring.datasource.username=your_username
   ## Change your_password below
   spring.datasource.password=your_password
+  spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
   spring.jpa.hibernate.ddl-auto=update
   spring.jpa.show-sql=true
   spring.thymeleaf.cache=false
