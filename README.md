@@ -66,6 +66,7 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   - Open the "application.properties" file under "src/main/resources".
 
   - Modify the following properties according your MySQL Workbench database name, username and password :
+    
   ```bash
   spring.application.name=MyRoleAuthentication
   spring.datasource.url=jdbc:mysql://localhost:3306/database_name
@@ -77,7 +78,7 @@ https://github.com/StevenRaj17/WebAppAssessment.git
   spring.thymeleaf.cache=false
   spring.main.allow-circular-references=true
   server.port=8080
-```
+  ```
   - Save the "application.properties" file.
 
 ## 2.4) Running The Application
